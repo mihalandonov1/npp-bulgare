@@ -1,6 +1,6 @@
 import React from 'react';
-import { RiEarthFill } from 'react-icons/ri';
-import { TiEdit } from 'react-icons/ti';
+import  aRiEarthFill  from './files/earth.png';
+import  at  from './files/edit.png';
 import logo from './files/logo.jpeg';
 import './Info.css'
 
@@ -25,7 +25,8 @@ export function Info() {
                         </div>
                         <div className='info-pic'>
                             <div className='icon-box'>
-                                <TiEdit className='icon' />
+                                <img className='icon' src={at} alt='pic'/>
+                                
                             </div>
                         </div>
                     </div>
@@ -56,7 +57,8 @@ export function Info() {
                         </div>
                         <div className='info-pic'>
                             <div className='icon-box'>
-                                <RiEarthFill className='icon' />
+                               
+                                <img className='icon' src={aRiEarthFill} alt='pic'/>
                             </div>
                         </div>
                     </div>
@@ -68,3 +70,5 @@ export function Info() {
         </div>
     );
 }
+
+export default Info
