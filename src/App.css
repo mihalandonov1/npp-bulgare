@@ -53,6 +53,8 @@
   border-radius: 20px;
   color: black;
   border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .layout {

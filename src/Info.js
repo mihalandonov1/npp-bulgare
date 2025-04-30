@@ -1,5 +1,8 @@
 import React from 'react'
 import './Info.css'
+import logo from './files/logo.jpeg'
+import { TiEdit } from "react-icons/ti";
+import { RiEarthFill } from "react-icons/ri";
 
 
 
@@ -14,7 +17,7 @@ function Info() {
                     <div>Национална политическа партия БЪЛГАРЕ е създадедна да защитава интересите на българския народ, да насърчава националното единство и гордост, и да работи за икономическо развитие, социална справедливост и запазване на културното наследство на България. Нашата цел е да създадем по-добро бъдеще за всички българи чрез честност, отговорност и ангажираност към обществото.
                     </div>
                 </div>  
-                <div className='info-pic'>ЛОГО на партията</div> 
+                <div className='info-pic'><img className='logo-img' src={logo} alt='logo'/></div> 
             </div>
             <div className='box'>
                 <div className='info'>
@@ -24,7 +27,7 @@ function Info() {
                 </div>  
                 <div className='info-pic'>
                     <div className='icon-box'>
-                   
+                    <TiEdit className='icon'/>
                     </div>
                 </div> 
             </div>
@@ -55,7 +58,7 @@ function Info() {
                 </div>
                 <div className='info-pic'>
                     <div className='icon-box'>
-                   
+                    <RiEarthFill className='icon' />
                     </div>
                 </div> 
             </div>
