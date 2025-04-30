@@ -10,3 +10,8 @@
 .footer {
     width: 100%;
 }
+
+.signature {
+    font-size: 8px;
+    margin-top: 10px;
+}
