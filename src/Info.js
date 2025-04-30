@@ -1,7 +1,6 @@
 import React from 'react'
 import './Info.css'
-import { SiElectronbuilder } from "react-icons/si";
-import { HiFlag } from "react-icons/hi2";
+
 
 
 function Info() {
@@ -25,7 +24,7 @@ function Info() {
                 </div>  
                 <div className='info-pic'>
                     <div className='icon-box'>
-                    <SiElectronbuilder className='icon' />
+                   
                     </div>
                 </div> 
             </div>
@@ -56,7 +55,7 @@ function Info() {
                 </div>
                 <div className='info-pic'>
                     <div className='icon-box'>
-                    <HiFlag  className='icon' />
+                  
                     </div>
                 </div> 
             </div>
