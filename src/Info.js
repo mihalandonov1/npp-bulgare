@@ -27,7 +27,11 @@ function Info() {
                 </div>  
                 <div className='info-pic'>
                     <div className='icon-box'>
+<<<<<<< HEAD
                     <TiEdit className='icon'/>
+=======
+                   
+>>>>>>> a18289e5e0f79a614c65e88575afae265ab1d894
                     </div>
                 </div> 
             </div>
@@ -58,7 +62,11 @@ function Info() {
                 </div>
                 <div className='info-pic'>
                     <div className='icon-box'>
+<<<<<<< HEAD
                     <RiEarthFill className='icon' />
+=======
+                  
+>>>>>>> a18289e5e0f79a614c65e88575afae265ab1d894
                     </div>
                 </div> 
             </div>
