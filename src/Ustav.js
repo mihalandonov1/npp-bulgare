@@ -11,6 +11,7 @@ import img8 from './images/ustav img/8.png'
 import img9 from './images/ustav img/9.png'
 import img10 from './images/ustav img/10.png'
 import img11 from './images/ustav img/11.png'
+import ustav from './ustav.pdf'
 
 function Ustav() {
   return (
@@ -30,7 +31,7 @@ function Ustav() {
                 <div ><img className='ustav-img' src={img10} alt='pic'/></div>
                 <div ><img className='ustav-img' src={img11} alt='pic'/></div>
             </div>
-            <a className='download-button' href='../public/pdf/ustav.pdf' download>СВАЛИ УСТАВ</a>
+            <a className="download-button" href={ustav} download="Ustav.pdf">Свали Устав</a>
         </div>
     </div>
   )
