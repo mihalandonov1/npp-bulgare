@@ -31,7 +31,7 @@ function Ustav() {
                 <div ><img className='ustav-img' src={img10} alt='pic'/></div>
                 <div ><img className='ustav-img' src={img11} alt='pic'/></div>
             </div>
-            <a className="download-button" href={ustav} download="Ustav.pdf">Свали Устав</a>
+            <a className="download-button" href={ustav} download="Устав НПП - Булгаре.pdf">Свали Устав</a>
         </div>
     </div>
   )

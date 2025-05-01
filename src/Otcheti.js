@@ -11,6 +11,8 @@ import gfo8 from './files/GFO 2024/Годишен финансов отчет-pa
 import prilojenie1 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-001.jpg'
 import prilojenie2 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-002.jpg'
 import prilojenie3 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-003.jpg'
+import gfo from './Годишен финансов отчет.pdf'
+import gfoprilojenie from './Приложение към Годишен финансов отчет.pdf'
 
 function Otcheti() {
   return (
@@ -38,8 +40,8 @@ function Otcheti() {
               </div>
 
               <div>
-              <a className='download-button' href='../public/pdf/Годишен финансов отчет.pdf' download>СВАЛИ ГФО 2024</a>
-              <a className='download-button' href='../public/pdf/Приложение към Годишен финансов отчет.pdf' download>СВАЛИ ГФО 2024 - Приложение</a>
+              <a className="download-button" href={gfo} download="НПП Булгаре - ГФО 2024.pdf">Свали ГФО 2024</a>
+              <a className="download-button" href={gfoprilojenie} download="НПП Булгаре - ГФО 2024 (Приложение).pdf">Свали Приложение към ГФО</a>
               </div>
               <div className='media-partners'>
                 <p>Медийни Партньори</p>
