@@ -38,8 +38,8 @@ function Otcheti() {
               </div>
 
               <div>
-              <a className='download-button' href='./files/Годишен финансов отчет.pdf' download>СВАЛИ ГФО 2024</a>
-              <a className='download-button' href='./files/Приложение към Годишен финансов отчет.pdf' download>СВАЛИ ГФО 2024 - Приложение</a>
+              <a className='download-button' href='../public/pdf/Годишен финансов отчет.pdf' download>СВАЛИ ГФО 2024</a>
+              <a className='download-button' href='../public/pdf/Приложение към Годишен финансов отчет.pdf' download>СВАЛИ ГФО 2024 - Приложение</a>
               </div>
               <div className='media-partners'>
                 <p>Медийни Партньори</p>
