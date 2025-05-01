@@ -11,3 +11,20 @@
     justify-content: center;
     margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .ustav-img {
+        max-width: 200px;
+        border: 1px solid black;
+        margin: 10px;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+}

@@ -31,3 +31,12 @@
 
 
 
+@media only screen and (max-width: 600px) {
+    .menu-item {
+      font-size: 10px;
+    }
+
+    .nav {
+        margin-right: 30px;
+    }
+  }
