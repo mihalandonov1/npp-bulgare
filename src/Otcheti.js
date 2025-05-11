@@ -8,11 +8,19 @@ import gfo5 from './files/GFO 2024/Годишен финансов отчет-pa
 import gfo6 from './files/GFO 2024/Годишен финансов отчет-page-006.jpg'
 import gfo7 from './files/GFO 2024/Годишен финансов отчет-page-007.jpg'
 import gfo8 from './files/GFO 2024/Годишен финансов отчет-page-008.jpg'
+import izbori1 from './files/otchet izbori/otcheti izbori - snimki/писмо.jpeg'
+import izbori2 from './files/otchet izbori/otcheti izbori - snimki/репорт 1.png'
+import izbori3 from './files/otchet izbori/otcheti izbori - snimki/репорт 2.png'
+import izbori4 from './files/otchet izbori/otcheti izbori - snimki/справка средства кандидати.png'
+import izbori5 from './files/otchet izbori/otcheti izbori - snimki/справка средства от пол партии.png'
+import izbori6 from './files/otchet izbori/otcheti izbori - snimki/спрарвка дарения ФЛ.png'
+
 import prilojenie1 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-001.jpg'
 import prilojenie2 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-002.jpg'
 import prilojenie3 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-003.jpg'
 import gfo from './Годишен финансов отчет.pdf'
 import gfoprilojenie from './Приложение към Годишен финансов отчет.pdf'
+import otchetizbori from './files/otchet izbori/Отчети избори 2024г.zip'
 
 function Otcheti() {
   return (
@@ -40,8 +48,19 @@ function Otcheti() {
               </div>
 
               <div>
-              <a className="download-button" href={gfo} download="НПП Булгаре - ГФО 2024.pdf">Свали ГФО 2024</a>
-              <a className="download-button" href={gfoprilojenie} download="НПП Булгаре - ГФО 2024 (Приложение).pdf">Свали Приложение към ГФО</a>
+              <a className="download-button" href={gfo} download="НПП Българе - ГФО 2024.pdf">Свали ГФО 2024</a>
+              <a className="download-button" href={gfoprilojenie} download="НПП Българе - ГФО 2024 (Приложение).pdf">Свали Приложение към ГФО</a>
+             
+              <h3>Отчети избори 2024</h3>
+              <div className='result-box-otcheti'>
+                <img className='gfo-img' src={izbori1} alt='pic'/>
+                <img className='gfo-img' src={izbori2} alt='pic'/>
+                <img className='gfo-img' src={izbori3} alt='pic'/>
+                <img className='gfo-img' src={izbori4} alt='pic'/>
+                <img className='gfo-img' src={izbori5} alt='pic'/>
+                <img className='gfo-img' src={izbori6} alt='pic'/>
+              </div>
+              <a className="download-button" href={otchetizbori} download="Отчети избори 2024г.zip">Свали Отчети Избори 2024</a>
               </div>
               <div className='media-partners'>
                 <p>Медийни Партньори</p>
