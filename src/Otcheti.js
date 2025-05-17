@@ -20,7 +20,7 @@ import prilojenie2 from './files/GFO 2024 Prilojenie/Приложение към
 import prilojenie3 from './files/GFO 2024 Prilojenie/Приложение към Годишен финансов отчет-page-003.jpg'
 import gfo from './Годишен финансов отчет.pdf'
 import gfoprilojenie from './Приложение към Годишен финансов отчет.pdf'
-import otchetizbori from './files/otchet izbori/Отчети избори 2024г.zip'
+import otchetizbori from './/Отчети избори 2024г.zip'
 
 function Otcheti() {
   return (
